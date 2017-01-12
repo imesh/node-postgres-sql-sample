@@ -1,4 +1,4 @@
-# Node Postgre Sample API
+# Node Postgres Sample API
 
 This is a sample REST API implemented in Node.js using [Express](http://expressjs.com/). This API exposes following API resouces for executing CRUD operations:
 
