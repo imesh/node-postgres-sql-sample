@@ -1,6 +1,6 @@
 # Node Postgres Sample API
 
-This is a sample REST API implemented in Node.js using [Express](http://expressjs.com/). This API exposes following API resouces for executing CRUD operations:
+This is a sample REST API implemented in Node.js using [Express.js](http://expressjs.com/). This API exposes following API resouces for executing CRUD operations and data is persisted in a PostgresSQL database.
 
 ```
 HTTP POST /api/v1/rewards/
@@ -9,7 +9,24 @@ HTTP PUT /api/v1/rewards/{reward-id}
 HTTP DELETE /api/v1/rewards/{reward-id}
 ```
 
+## Prerequisites
+
+- *Docker*
+
+  In this sample Docker is used for running PostgreSQL database on a deskstop machine.
+  
+
+- *Node.js*
+
+  The API is wrcoitten in Node.
+
+- *Express.js*
+
+  Express has been used for implementing the API routing logic in Node.
+
 ## How To Run
+
+Please follow below steps to try out this sample on your local machine:
 
 1. Start a PostgreSQL database server using Docker:
 
