@@ -1,4 +1,4 @@
-# Merchants API
+# Orders API
 
 This API exposes following API resouces:
 
