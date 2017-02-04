@@ -52,4 +52,5 @@ HTTP DELETE /api/v1/merchants/:merchantId/branches/:merchantBranchId
 
 5. Refer [sample-api-requests.sh](/sequelize/sample-api-requests.sh) bash file for a set of sample curl requests.
 
-
+## License
+This sample source code is released under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
