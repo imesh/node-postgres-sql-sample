@@ -50,6 +50,6 @@ HTTP DELETE /api/v1/merchants/:merchantId/branches/:merchantBranchId
    npm start
    ```
 
-5. Refer sample-api-requests.sh bash file for a set of sample curl requests.
+5. Refer [sample-api-requests.sh](/sequelize/sample-api-requests.sh) bash file for a set of sample curl requests.
 
 
