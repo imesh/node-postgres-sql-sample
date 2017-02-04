@@ -1,4 +1,4 @@
-# Rewards API
+# Merchants API
 
 This API exposes following API resouces:
 
