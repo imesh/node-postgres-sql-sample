@@ -27,6 +27,7 @@ HTTP DELETE /api/v1/merchants/:merchantId/branches/:merchantBranchId
 2. Create a new database by executing below commands:
    
    ```bash
+   docker exec -it [container-id]
    # Connect to postgres shell, password is postgres
    psql -h 127.0.0.1 -U postgres 
    ```
