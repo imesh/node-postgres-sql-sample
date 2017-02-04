@@ -3,17 +3,17 @@
 This API exposes following API resouces:
 
 ```
-HTTP POST /api/v1/merchants/
-HTTP GET /api/v1/merchants/
-HTTP GET /api/v1/merchants/:merchantId
-HTTP PUT /api/v1/merchants/:merchantId
-HTTP DELETE /api/v1/merchants/:merchantId
+HTTP POST /api/v1/orders/
+HTTP GET /api/v1/orders/
+HTTP GET /api/v1/orders/:orderId
+HTTP PUT /api/v1/orders/:orderId
+HTTP DELETE /api/v1/orders/:orderId
 
-HTTP POST /api/v1/merchants/:merchantId/branches/
-HTTP GET /api/v1/merchants/:merchantId/branchess/
-HTTP GET /api/v1/merchants/:merchantId/branches/:merchantBranchId
-HTTP PUT /api/v1/merchants/:merchantId/branches/:merchantBranchId
-HTTP DELETE /api/v1/merchants/:merchantId/branches/:merchantBranchId
+HTTP POST /api/v1/orders/:orderId/items/
+HTTP GET /api/v1/orders/:orderId/itemss/
+HTTP GET /api/v1/orders/:orderId/items/:orderItemId
+HTTP PUT /api/v1/orders/:orderId/items/:orderItemId
+HTTP DELETE /api/v1/orders/:orderId/items/:orderItemId
 ```
 
 ## How To Run
@@ -33,7 +33,7 @@ HTTP DELETE /api/v1/merchants/:merchantId/branches/:merchantBranchId
    ```
 
    ```SQL
-   CREATE DATABASE merchants;
+   CREATE DATABASE orders;
    ```
 
 3. Create database tables using sequelize by executing below commands:
