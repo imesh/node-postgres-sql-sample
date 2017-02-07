@@ -1,6 +1,6 @@
-# Node Postgres Sample API
+# Node Postgres SQL Sample
 
-This is a sample REST API implemented in Node.js using [Express.js](http://expressjs.com/). This API exposes following API resouces for executing CRUD operations and data is persisted in a PostgresSQL database.
+This sample implements a REST API in Node.js using [Express.js](http://expressjs.com/) and Postgres SQL. Database communication is done using SQL. The API exposes the following API resouces for executing CRUD operations.
 
 ```
 HTTP POST /api/v1/rewards/
